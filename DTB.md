@@ -15,6 +15,7 @@ public class DTB {
       while(num > 0){
           int digit = num % 2;
           binary += digit * base;
+         // instead of ==>> using math.pow();
           base *= 10;
           num = num / 2;
       }
